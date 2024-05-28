@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style-form.css">
+    <title>Formulário Google drive</title>
+</head>
+<body>
+    <div class="container">
+        <form id="form-g" method="post">
+            <h4>Sistema de Cadastro Interno </h4>
+            <h3>Vereador Allan Pombo PDT - Belém</h3>
+            <input type="text" name="quem-cadastrou" placeholder="Cadastrante">
+            <input type="text" name="seu-nome" placeholder="Seu Nome">
+            <input type="text" name="seu-numero" placeholder="Seu Whatsapp">
+            <input type="text" name="seu-bairro" placeholder="Seu Bairro">
+            <textarea name="sua-mensagem" rows="7" placeholder="Observação" id=""></textarea>
+            
+            <label for="checkbox1" class="label1"> 
+                <input type="checkbox" id="checkbox1" name="sua-autorizacao" value="sim">
+                Aceito receber informações do Vereador Allan Pombo no Whatsapp
+                
+            </label>
+            <input type="submit" value="Enviar" id="submit">
+        </form>
+    </div>
+
+    <script src="google-sheet.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background-image: url('./img/bg02-site-allan.png');
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 500px;
+    padding: 30px;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    background-color: #015c0b;
+    box-shadow: 3px 3px 3px 5px rgba(0, 0, 0, 0.415);
+}
+
+h4 {
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: white;
+    margin-left: 25px;
+}
+h3 {
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 19px;
+    color: #eeeeee;
+}
+
+#checkbox1 {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+#submit {
+    border: none;
+    background-color: orangered;
+    color: white;
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: block
+}
+
+#submit:hover {
+    background-color: #333333;
+}
